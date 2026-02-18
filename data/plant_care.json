@@ -1,0 +1,331 @@
+{
+  "African Violet (Saintpaulia ionantha)": {
+    "light": "Bright Indirect",
+    "water": "Water when top inch of soil is dry; avoid getting water on leaves",
+    "humidity": "Medium to High (50-60%)",
+    "temperature": "18-24°C (65-75°F)",
+    "common_problems": ["Root rot from overwatering", "Leaf spots from cold water on leaves"]
+  },
+  "Aloe Vera": {
+    "light": "Direct Sunlight to Bright Indirect",
+    "water": "Water deeply but infrequently; let soil dry completely between waterings",
+    "humidity": "Low (30-40%)",
+    "temperature": "13-27°C (55-80°F)",
+    "common_problems": ["Root rot from overwatering", "Brown tips from too much direct sun"]
+  },
+  "Anthurium (Anthurium andraeanum)": {
+    "light": "Bright Indirect",
+    "water": "Water when top inch is dry; likes consistent moisture",
+    "humidity": "High (60-80%)",
+    "temperature": "18-27°C (65-80°F)",
+    "common_problems": ["Brown leaf tips from low humidity", "Yellow leaves from overwatering"]
+  },
+  "Areca Palm (Dypsis lutescens)": {
+    "light": "Bright Indirect",
+    "water": "Keep soil slightly moist; water when top 2 inches are dry",
+    "humidity": "Medium to High (50-70%)",
+    "temperature": "16-24°C (60-75°F)",
+    "common_problems": ["Brown tips from dry air", "Yellow fronds from overwatering"]
+  },
+  "Asparagus Fern (Asparagus setaceus)": {
+    "light": "Bright Indirect",
+    "water": "Keep evenly moist; don't let soil dry out completely",
+    "humidity": "Medium to High (50-70%)",
+    "temperature": "13-24°C (55-75°F)",
+    "common_problems": ["Yellowing needles from underwatering", "Leaf drop from low humidity"]
+  },
+  "Begonia (Begonia spp.)": {
+    "light": "Bright Indirect",
+    "water": "Water when top inch is dry; avoid waterlogged soil",
+    "humidity": "Medium to High (50-60%)",
+    "temperature": "16-24°C (60-75°F)",
+    "common_problems": ["Powdery mildew in poor air circulation", "Leaf drop from cold drafts"]
+  },
+  "Bird of Paradise (Strelitzia reginae)": {
+    "light": "Direct Sunlight",
+    "water": "Water every 1-2 weeks; let soil dry between waterings",
+    "humidity": "Medium (40-60%)",
+    "temperature": "18-30°C (65-85°F)",
+    "common_problems": ["Splitting leaves (natural)", "Yellow leaves from overwatering"]
+  },
+  "Birds Nest Fern (Asplenium nidus)": {
+    "light": "Medium to Bright Indirect",
+    "water": "Keep soil consistently moist but not soggy; water around edges, not center",
+    "humidity": "High (60-80%)",
+    "temperature": "16-24°C (60-75°F)",
+    "common_problems": ["Brown frond tips from low humidity", "Root rot from overwatering"]
+  },
+  "Boston Fern (Nephrolepis exaltata)": {
+    "light": "Bright Indirect",
+    "water": "Keep soil evenly moist at all times",
+    "humidity": "High (60-80%)",
+    "temperature": "16-24°C (60-75°F)",
+    "common_problems": ["Leaf drop from dry air", "Brown fronds from underwatering"]
+  },
+  "Calathea": {
+    "light": "Medium to Bright Indirect",
+    "water": "Keep evenly moist; use filtered or distilled water (sensitive to chemicals)",
+    "humidity": "High (60-80%)",
+    "temperature": "18-24°C (65-75°F)",
+    "common_problems": ["Brown leaf edges from tap water or low humidity", "Curling leaves from underwatering"]
+  },
+  "Cast Iron Plant (Aspidistra elatior)": {
+    "light": "Low Light to Medium",
+    "water": "Water when top 2 inches are dry; very drought tolerant",
+    "humidity": "Low to Medium (30-50%)",
+    "temperature": "7-29°C (45-85°F)",
+    "common_problems": ["Very few problems; brown tips from overfertilizing"]
+  },
+  "Chinese Money Plant (Pilea peperomioides)": {
+    "light": "Bright Indirect",
+    "water": "Water when top inch is dry; allow good drainage",
+    "humidity": "Medium (40-60%)",
+    "temperature": "16-24°C (60-75°F)",
+    "common_problems": ["Curling leaves from too much sun", "Droopy leaves from underwatering"]
+  },
+  "Chinese evergreen (Aglaonema)": {
+    "light": "Low Light to Bright Indirect",
+    "water": "Water when top inch is dry; tolerates some neglect",
+    "humidity": "Medium (40-60%)",
+    "temperature": "16-27°C (60-80°F)",
+    "common_problems": ["Yellow leaves from overwatering", "Brown tips from cold drafts"]
+  },
+  "Christmas Cactus (Schlumbergera bridgesii)": {
+    "light": "Bright Indirect",
+    "water": "Water when top inch is dry; reduce watering after blooming",
+    "humidity": "Medium to High (50-60%)",
+    "temperature": "16-21°C (60-70°F)",
+    "common_problems": ["Bud drop from temperature changes", "Limp stems from overwatering"]
+  },
+  "Chrysanthemum": {
+    "light": "Direct Sunlight to Bright Indirect",
+    "water": "Keep soil evenly moist; don't let it dry out",
+    "humidity": "Medium (40-60%)",
+    "temperature": "13-21°C (55-70°F)",
+    "common_problems": ["Wilting from underwatering", "Powdery mildew from poor air circulation"]
+  },
+  "Ctenanthe": {
+    "light": "Medium to Bright Indirect",
+    "water": "Keep evenly moist; use filtered water",
+    "humidity": "High (60-80%)",
+    "temperature": "16-24°C (60-75°F)",
+    "common_problems": ["Brown leaf edges from dry air", "Fading patterns from too much sun"]
+  },
+  "Daffodils (Narcissus spp.)": {
+    "light": "Direct Sunlight",
+    "water": "Water regularly during growth; reduce after flowers fade",
+    "humidity": "Low to Medium (30-50%)",
+    "temperature": "10-16°C (50-60°F)",
+    "common_problems": ["Bulb rot from soggy soil", "Blind buds from planting too shallow"]
+  },
+  "Dracaena": {
+    "light": "Low Light to Bright Indirect",
+    "water": "Water when top half of soil is dry; sensitive to fluoride in tap water",
+    "humidity": "Medium (40-60%)",
+    "temperature": "18-27°C (65-80°F)",
+    "common_problems": ["Brown leaf tips from tap water fluoride", "Yellow leaves from overwatering"]
+  },
+  "Dumb Cane (Dieffenbachia spp.)": {
+    "light": "Medium to Bright Indirect",
+    "water": "Water when top inch is dry; keep evenly moist in growing season",
+    "humidity": "Medium to High (50-60%)",
+    "temperature": "18-27°C (65-80°F)",
+    "common_problems": ["Yellow lower leaves from overwatering", "CAUTION: Sap is toxic if ingested"]
+  },
+  "Elephant Ear (Alocasia spp.)": {
+    "light": "Bright Indirect",
+    "water": "Keep soil moist but not waterlogged; reduce in winter",
+    "humidity": "High (60-80%)",
+    "temperature": "18-27°C (65-80°F)",
+    "common_problems": ["Drooping leaves from underwatering", "Spider mites in dry conditions"]
+  },
+  "English Ivy (Hedera helix)": {
+    "light": "Medium to Bright Indirect",
+    "water": "Keep slightly moist; let top inch dry between waterings",
+    "humidity": "Medium to High (50-60%)",
+    "temperature": "10-21°C (50-70°F)",
+    "common_problems": ["Spider mites in dry indoor air", "Leaf drop from overwatering"]
+  },
+  "Hyacinth (Hyacinthus orientalis)": {
+    "light": "Direct Sunlight to Bright Indirect",
+    "water": "Keep soil moist but not waterlogged during growth",
+    "humidity": "Medium (40-60%)",
+    "temperature": "10-18°C (50-65°F)",
+    "common_problems": ["Bulb rot from excess moisture", "Floppy stems from warm temperatures"]
+  },
+  "Iron Cross begonia (Begonia masoniana)": {
+    "light": "Bright Indirect",
+    "water": "Water when top inch is dry; avoid wetting leaves",
+    "humidity": "High (60-70%)",
+    "temperature": "18-24°C (65-75°F)",
+    "common_problems": ["Powdery mildew from wet leaves", "Leaf drop from cold drafts"]
+  },
+  "Jade plant (Crassula ovata)": {
+    "light": "Direct Sunlight to Bright Indirect",
+    "water": "Water when soil is completely dry; very drought tolerant",
+    "humidity": "Low (30-40%)",
+    "temperature": "13-24°C (55-75°F)",
+    "common_problems": ["Root rot from overwatering", "Leggy growth from insufficient light"]
+  },
+  "Kalanchoe": {
+    "light": "Direct Sunlight to Bright Indirect",
+    "water": "Water when soil is dry; reduce in winter",
+    "humidity": "Low (30-40%)",
+    "temperature": "16-27°C (60-80°F)",
+    "common_problems": ["Leggy growth from low light", "Root rot from overwatering"]
+  },
+  "Lilium (Hemerocallis)": {
+    "light": "Direct Sunlight to Bright Indirect",
+    "water": "Keep soil evenly moist during growing season",
+    "humidity": "Medium (40-60%)",
+    "temperature": "13-24°C (55-75°F)",
+    "common_problems": ["Bulb rot from waterlogged soil", "Aphids on new growth"]
+  },
+  "Lily of the valley (Convallaria majalis)": {
+    "light": "Medium to Low Light",
+    "water": "Keep soil consistently moist",
+    "humidity": "Medium (40-60%)",
+    "temperature": "10-21°C (50-70°F)",
+    "common_problems": ["CAUTION: All parts are highly toxic", "Fungal leaf spots in humid conditions"]
+  },
+  "Money Tree (Pachira aquatica)": {
+    "light": "Bright Indirect",
+    "water": "Water when top 2-3 inches are dry; avoid overwatering",
+    "humidity": "Medium to High (50-60%)",
+    "temperature": "18-27°C (65-80°F)",
+    "common_problems": ["Yellow leaves from overwatering", "Leaf drop from cold drafts"]
+  },
+  "Monstera Deliciosa (Monstera deliciosa)": {
+    "light": "Bright Indirect",
+    "water": "Water every 1-2 weeks; let soil dry between waterings",
+    "humidity": "Medium to High (50-70%)",
+    "temperature": "18-27°C (65-80°F)",
+    "common_problems": ["Yellow leaves from overwatering", "No fenestrations from insufficient light"]
+  },
+  "Orchid": {
+    "light": "Bright Indirect",
+    "water": "Water when growing medium is nearly dry; soak and drain method",
+    "humidity": "High (50-70%)",
+    "temperature": "16-27°C (60-80°F)",
+    "common_problems": ["Crown rot from water sitting in leaves", "No re-blooming from insufficient light"]
+  },
+  "Parlor Palm (Chamaedorea elegans)": {
+    "light": "Low Light to Bright Indirect",
+    "water": "Water when top inch is dry; don't let sit in water",
+    "humidity": "Medium (40-60%)",
+    "temperature": "18-27°C (65-80°F)",
+    "common_problems": ["Brown tips from dry air or overwatering", "Spider mites in dry conditions"]
+  },
+  "Peace lily": {
+    "light": "Low Light to Bright Indirect",
+    "water": "Water when leaves just start to droop slightly; keep moist",
+    "humidity": "Medium to High (50-60%)",
+    "temperature": "18-27°C (65-80°F)",
+    "common_problems": ["Brown leaf tips from tap water chemicals", "No flowers from insufficient light"]
+  },
+  "Poinsettia (Euphorbia pulcherrima)": {
+    "light": "Direct Sunlight to Bright Indirect",
+    "water": "Water when soil surface feels dry; avoid waterlogging",
+    "humidity": "Medium (40-60%)",
+    "temperature": "16-24°C (60-75°F)",
+    "common_problems": ["Leaf drop from cold drafts or dry air", "Sap can irritate skin"]
+  },
+  "Polka Dot Plant (Hypoestes phyllostachya)": {
+    "light": "Bright Indirect",
+    "water": "Keep soil evenly moist; don't let dry out completely",
+    "humidity": "Medium to High (50-60%)",
+    "temperature": "18-27°C (65-80°F)",
+    "common_problems": ["Fading color from too little light", "Leggy growth; pinch tips to encourage bushiness"]
+  },
+  "Ponytail Palm (Beaucarnea recurvata)": {
+    "light": "Direct Sunlight to Bright Indirect",
+    "water": "Water every 2-3 weeks; very drought tolerant (stores water in trunk)",
+    "humidity": "Low (30-40%)",
+    "temperature": "10-27°C (50-80°F)",
+    "common_problems": ["Root rot from overwatering", "Brown leaf tips from very low humidity"]
+  },
+  "Pothos (Ivy arum)": {
+    "light": "Low Light to Bright Indirect",
+    "water": "Water when top inch or two is dry; very forgiving",
+    "humidity": "Low to Medium (30-50%)",
+    "temperature": "16-27°C (60-80°F)",
+    "common_problems": ["Yellow leaves from overwatering", "Loss of variegation in low light"]
+  },
+  "Prayer Plant (Maranta leuconeura)": {
+    "light": "Medium to Bright Indirect",
+    "water": "Keep moist but not soggy; use filtered water",
+    "humidity": "High (60-80%)",
+    "temperature": "16-27°C (60-80°F)",
+    "common_problems": ["Brown leaf edges from dry air or tap water", "Curling leaves from underwatering"]
+  },
+  "Rattlesnake Plant (Calathea lancifolia)": {
+    "light": "Medium to Bright Indirect",
+    "water": "Keep evenly moist; use distilled or filtered water",
+    "humidity": "High (60-80%)",
+    "temperature": "18-24°C (65-75°F)",
+    "common_problems": ["Crispy edges from low humidity", "Fading patterns from too much direct sun"]
+  },
+  "Rubber Plant (Ficus elastica)": {
+    "light": "Bright Indirect",
+    "water": "Water when top inch is dry; wipe leaves to remove dust",
+    "humidity": "Medium (40-60%)",
+    "temperature": "16-27°C (60-80°F)",
+    "common_problems": ["Dropping lower leaves from overwatering", "Leggy growth from low light"]
+  },
+  "Sago Palm (Cycas revoluta)": {
+    "light": "Direct Sunlight to Bright Indirect",
+    "water": "Water when soil is dry; do not overwater",
+    "humidity": "Medium (40-60%)",
+    "temperature": "16-27°C (60-80°F)",
+    "common_problems": ["CAUTION: Very toxic to pets", "Yellow fronds from overwatering"]
+  },
+  "Schefflera": {
+    "light": "Medium to Bright Indirect",
+    "water": "Water when top inch is dry; allow to dry more in winter",
+    "humidity": "Medium (40-60%)",
+    "temperature": "16-27°C (60-80°F)",
+    "common_problems": ["Dropping leaves from overwatering or cold drafts", "Sticky leaves from scale insects"]
+  },
+  "Snake plant (Sanseviera)": {
+    "light": "Low Light to Direct Sunlight (extremely adaptable)",
+    "water": "Water every 2-6 weeks; let soil dry completely between waterings",
+    "humidity": "Low (30-40%)",
+    "temperature": "10-30°C (50-85°F)",
+    "common_problems": ["Root rot from overwatering (most common killer)", "Mushy base from cold and wet soil"]
+  },
+  "Tradescantia": {
+    "light": "Bright Indirect",
+    "water": "Water when top inch is dry; keep soil lightly moist",
+    "humidity": "Medium to High (50-60%)",
+    "temperature": "16-24°C (60-75°F)",
+    "common_problems": ["Leggy growth; prune often to encourage fullness", "Loss of color in low light"]
+  },
+  "Tulip": {
+    "light": "Direct Sunlight",
+    "water": "Water moderately; well-drained soil essential",
+    "humidity": "Low to Medium (30-50%)",
+    "temperature": "10-16°C (50-60°F)",
+    "common_problems": ["Bulb rot from overwatering", "Floppy stems from warm indoor temperatures"]
+  },
+  "Venus Flytrap": {
+    "light": "Direct Sunlight (4+ hours)",
+    "water": "Keep soil constantly moist with distilled or rainwater only; NO tap water",
+    "humidity": "High (50-80%)",
+    "temperature": "10-27°C (50-80°F)",
+    "common_problems": ["Death from tap water minerals", "Black traps (normal after catching prey)"]
+  },
+  "Yucca": {
+    "light": "Direct Sunlight to Bright Indirect",
+    "water": "Water when top half of soil is dry; very drought tolerant",
+    "humidity": "Low (30-40%)",
+    "temperature": "7-30°C (45-85°F)",
+    "common_problems": ["Root rot from overwatering", "Brown leaf tips in very dry air"]
+  },
+  "ZZ Plant (Zamioculcas zamiifolia)": {
+    "light": "Low Light to Bright Indirect (extremely adaptable)",
+    "water": "Water every 2-4 weeks; extremely drought tolerant",
+    "humidity": "Low (30-40%)",
+    "temperature": "16-27°C (60-80°F)",
+    "common_problems": ["Yellow leaves from overwatering (most common issue)", "Slow growth in very low light"]
+  }
+}

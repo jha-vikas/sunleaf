@@ -1,0 +1,24 @@
+[project]
+name = "sunleaf"
+version = "0.1.0"
+description = "Mobile app for sunlight assessment, plant species ID, and disease detection using on-device ML"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "torch>=2.9.0,<2.10.0",
+    "torchvision>=0.24.0,<0.25.0",
+    "litert-torch>=0.8.0,<0.9.0",
+    "transformers>=5.0.0,<6.0.0",
+    "huggingface-hub",
+    "pillow",
+    "numpy",
+    "tqdm",
+    "kagglehub",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ipykernel",
+    "jupyter",
+]

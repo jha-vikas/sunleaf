@@ -1,0 +1,14 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+*.ipynb_checkpoints/
+training/species_identification/checkpoints/
+training/species_identification/dataset/
+tests/sample_images/*.jpg
+tests/sample_images/*.png
+.DS_Store

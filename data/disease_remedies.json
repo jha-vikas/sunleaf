@@ -1,0 +1,372 @@
+{
+  "Apple___Apple_scab": {
+    "display_name": "Apple Scab",
+    "symptoms": "Olive-green to brown velvety spots on leaves; dark, scabby lesions on fruit",
+    "severity_levels": ["mild", "moderate", "severe"],
+    "home_remedies": [
+      "Spray with a baking soda solution (1 tbsp per gallon of water + few drops dish soap)",
+      "Apply neem oil spray every 7-14 days during growing season",
+      "Remove and destroy fallen infected leaves to break the cycle"
+    ],
+    "prevention": "Ensure good air circulation; avoid overhead watering; rake up fallen leaves in autumn"
+  },
+  "Apple___Black_rot": {
+    "display_name": "Apple Black Rot",
+    "symptoms": "Brown, expanding lesions with concentric rings on fruit; frogeye leaf spots",
+    "severity_levels": ["mild", "moderate", "severe"],
+    "home_remedies": [
+      "Prune out dead or infected branches during dormant season",
+      "Apply neem oil spray to affected areas",
+      "Remove mummified fruit from trees and ground"
+    ],
+    "prevention": "Maintain tree hygiene; remove all infected material; ensure good air circulation"
+  },
+  "Apple___Cedar_apple_rust": {
+    "display_name": "Cedar Apple Rust",
+    "symptoms": "Bright orange-yellow spots on upper leaf surface; tube-like structures on leaf undersides",
+    "severity_levels": ["mild", "moderate", "severe"],
+    "home_remedies": [
+      "Remove nearby juniper/cedar trees if possible (alternate host)",
+      "Spray with neem oil in early spring before symptoms appear",
+      "Apply a baking soda spray (1 tbsp per gallon) every 7 days"
+    ],
+    "prevention": "Plant rust-resistant apple varieties; remove galls from junipers within a few hundred feet"
+  },
+  "Apple___healthy": {
+    "display_name": "Healthy Apple",
+    "symptoms": "No disease detected",
+    "severity_levels": [],
+    "home_remedies": [],
+    "prevention": "Continue good care: proper watering, pruning, and seasonal cleanup"
+  },
+  "Blueberry___healthy": {
+    "display_name": "Healthy Blueberry",
+    "symptoms": "No disease detected",
+    "severity_levels": [],
+    "home_remedies": [],
+    "prevention": "Maintain acidic soil (pH 4.5-5.5); mulch with pine needles; prune annually"
+  },
+  "Cherry_(including_sour)___Powdery_mildew": {
+    "display_name": "Cherry Powdery Mildew",
+    "symptoms": "White powdery coating on leaves, shoots, and fruit; leaf curling and distortion",
+    "severity_levels": ["mild", "moderate", "severe"],
+    "home_remedies": [
+      "Spray milk solution (1 part milk to 9 parts water) on affected areas",
+      "Apply baking soda spray (1 tbsp per gallon + dish soap)",
+      "Use neem oil spray every 7-10 days"
+    ],
+    "prevention": "Ensure good air circulation; avoid overhead watering; prune to open canopy"
+  },
+  "Cherry_(including_sour)___healthy": {
+    "display_name": "Healthy Cherry",
+    "symptoms": "No disease detected",
+    "severity_levels": [],
+    "home_remedies": [],
+    "prevention": "Regular pruning for air flow; proper irrigation; seasonal dormant sprays"
+  },
+  "Corn_(maize)___Cercospora_leaf_spot_Gray_leaf_spot": {
+    "display_name": "Corn Gray Leaf Spot",
+    "symptoms": "Rectangular gray to tan lesions running parallel to leaf veins",
+    "severity_levels": ["mild", "moderate", "severe"],
+    "home_remedies": [
+      "Remove and destroy infected crop debris after harvest",
+      "Rotate crops (avoid planting corn in the same spot consecutively)",
+      "Apply compost tea as a foliar spray to boost plant immunity"
+    ],
+    "prevention": "Practice crop rotation; choose resistant varieties; till under infected residue"
+  },
+  "Corn_(maize)___Common_rust_": {
+    "display_name": "Corn Common Rust",
+    "symptoms": "Small, reddish-brown to dark brown pustules on both leaf surfaces",
+    "severity_levels": ["mild", "moderate", "severe"],
+    "home_remedies": [
+      "Apply neem oil spray to slow spread",
+      "Remove heavily infected lower leaves",
+      "Spray with a garlic extract solution (blend garlic in water, strain, spray)"
+    ],
+    "prevention": "Plant resistant varieties; avoid late planting; ensure adequate spacing"
+  },
+  "Corn_(maize)___Northern_Leaf_Blight": {
+    "display_name": "Corn Northern Leaf Blight",
+    "symptoms": "Long, elliptical gray-green to tan lesions (1-6 inches) on leaves",
+    "severity_levels": ["mild", "moderate", "severe"],
+    "home_remedies": [
+      "Remove and destroy infected leaves",
+      "Apply compost tea or dilute hydrogen peroxide (1 tbsp per gallon) as foliar spray",
+      "Improve air circulation by proper plant spacing"
+    ],
+    "prevention": "Crop rotation; resistant varieties; remove corn debris in fall"
+  },
+  "Corn_(maize)___healthy": {
+    "display_name": "Healthy Corn",
+    "symptoms": "No disease detected",
+    "severity_levels": [],
+    "home_remedies": [],
+    "prevention": "Maintain adequate spacing; rotate crops annually; balanced fertilization"
+  },
+  "Grape___Black_rot": {
+    "display_name": "Grape Black Rot",
+    "symptoms": "Small brown circular spots on leaves; fruit turns brown then shrivels into hard mummies",
+    "severity_levels": ["mild", "moderate", "severe"],
+    "home_remedies": [
+      "Remove and destroy all mummified berries and infected leaves",
+      "Apply baking soda spray (1 tbsp per gallon) weekly during wet periods",
+      "Spray neem oil in early spring before flowering"
+    ],
+    "prevention": "Good canopy management; remove mummies; prune for air circulation"
+  },
+  "Grape___Esca_(Black_Measles)": {
+    "display_name": "Grape Esca (Black Measles)",
+    "symptoms": "Interveinal leaf discoloration (tiger-stripe pattern); dark spots on berries",
+    "severity_levels": ["mild", "moderate", "severe"],
+    "home_remedies": [
+      "Prune out dead or symptomatic wood during dry weather",
+      "Apply wound paste to large pruning cuts to prevent fungal entry",
+      "There is no known cure; manage by reducing vine stress"
+    ],
+    "prevention": "Minimize large pruning wounds; prune late in dormant season; avoid vine stress"
+  },
+  "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+    "display_name": "Grape Leaf Blight",
+    "symptoms": "Dark brown angular spots on leaves, often with a yellow halo; premature defoliation",
+    "severity_levels": ["mild", "moderate", "severe"],
+    "home_remedies": [
+      "Remove and destroy affected leaves promptly",
+      "Spray dilute neem oil every 10-14 days",
+      "Apply garlic-chili spray as a natural fungicide"
+    ],
+    "prevention": "Ensure good air flow in canopy; avoid overhead irrigation; clean up fallen debris"
+  },
+  "Grape___healthy": {
+    "display_name": "Healthy Grape",
+    "symptoms": "No disease detected",
+    "severity_levels": [],
+    "home_remedies": [],
+    "prevention": "Regular canopy management; balanced nutrition; proper irrigation"
+  },
+  "Orange___Haunglongbing_(Citrus_greening)": {
+    "display_name": "Citrus Greening (Huanglongbing)",
+    "symptoms": "Asymmetric yellow mottling on leaves; lopsided bitter fruit; premature fruit drop",
+    "severity_levels": ["moderate", "severe"],
+    "home_remedies": [
+      "No cure exists; manage symptoms by maintaining tree health with balanced fertilizer",
+      "Control Asian citrus psyllid (vector) with insecticidal soap or neem oil",
+      "Apply micronutrient foliar sprays (zinc, manganese) to support the tree"
+    ],
+    "prevention": "Control psyllid populations; inspect new plants before planting; remove infected trees to prevent spread"
+  },
+  "Peach___Bacterial_spot": {
+    "display_name": "Peach Bacterial Spot",
+    "symptoms": "Small dark spots on leaves that may fall out (shot-hole); sunken lesions on fruit",
+    "severity_levels": ["mild", "moderate", "severe"],
+    "home_remedies": [
+      "Apply copper-based spray (Bordeaux mixture) in early spring",
+      "Remove and destroy heavily infected branches",
+      "Improve tree nutrition with compost and balanced fertilizer"
+    ],
+    "prevention": "Plant resistant varieties; avoid overhead watering; ensure good drainage"
+  },
+  "Peach___healthy": {
+    "display_name": "Healthy Peach",
+    "symptoms": "No disease detected",
+    "severity_levels": [],
+    "home_remedies": [],
+    "prevention": "Annual dormant spray; proper pruning; good air circulation"
+  },
+  "Pepper,_bell___Bacterial_spot": {
+    "display_name": "Bell Pepper Bacterial Spot",
+    "symptoms": "Small, dark, water-soaked spots on leaves and fruit; leaf yellowing and drop",
+    "severity_levels": ["mild", "moderate", "severe"],
+    "home_remedies": [
+      "Remove and destroy infected plant parts immediately",
+      "Apply copper spray (1-2 tbsp copper sulfate per gallon) every 7-10 days",
+      "Mulch around plants to prevent soil splash onto leaves"
+    ],
+    "prevention": "Use disease-free seeds; rotate crops every 2-3 years; avoid working with wet plants"
+  },
+  "Pepper,_bell___healthy": {
+    "display_name": "Healthy Bell Pepper",
+    "symptoms": "No disease detected",
+    "severity_levels": [],
+    "home_remedies": [],
+    "prevention": "Crop rotation; proper spacing; consistent watering; stake plants for air flow"
+  },
+  "Potato___Early_blight": {
+    "display_name": "Potato Early Blight",
+    "symptoms": "Dark brown spots with concentric rings (target pattern) on lower leaves first",
+    "severity_levels": ["mild", "moderate", "severe"],
+    "home_remedies": [
+      "Remove infected lower leaves promptly",
+      "Apply baking soda spray (1 tbsp per gallon) every 5-7 days",
+      "Spray neem oil to slow fungal spread"
+    ],
+    "prevention": "Crop rotation (3-year); adequate spacing; mulch to prevent soil splash; balanced fertilizer"
+  },
+  "Potato___Late_blight": {
+    "display_name": "Potato Late Blight",
+    "symptoms": "Large, dark, water-soaked lesions on leaves; white mold on leaf undersides; rapid wilting",
+    "severity_levels": ["moderate", "severe"],
+    "home_remedies": [
+      "Remove and destroy ALL infected plants immediately (do not compost)",
+      "Apply copper-based fungicide as emergency treatment",
+      "Harvest tubers early if infection is detected to save crop"
+    ],
+    "prevention": "Plant certified disease-free seed potatoes; avoid overhead watering; destroy volunteer plants"
+  },
+  "Potato___healthy": {
+    "display_name": "Healthy Potato",
+    "symptoms": "No disease detected",
+    "severity_levels": [],
+    "home_remedies": [],
+    "prevention": "Use certified seed potatoes; hill soil around stems; maintain consistent moisture"
+  },
+  "Raspberry___healthy": {
+    "display_name": "Healthy Raspberry",
+    "symptoms": "No disease detected",
+    "severity_levels": [],
+    "home_remedies": [],
+    "prevention": "Annual pruning of spent canes; good air circulation; mulch to retain moisture"
+  },
+  "Soybean___healthy": {
+    "display_name": "Healthy Soybean",
+    "symptoms": "No disease detected",
+    "severity_levels": [],
+    "home_remedies": [],
+    "prevention": "Crop rotation; proper inoculation; scout regularly for early signs of stress"
+  },
+  "Squash___Powdery_mildew": {
+    "display_name": "Squash Powdery Mildew",
+    "symptoms": "White powdery patches on upper leaf surfaces; leaves yellow and die prematurely",
+    "severity_levels": ["mild", "moderate", "severe"],
+    "home_remedies": [
+      "Spray milk solution (1 part milk to 9 parts water) in morning sun",
+      "Apply baking soda spray (1 tbsp per gallon + few drops dish soap)",
+      "Neem oil spray every 7-10 days as preventive and treatment"
+    ],
+    "prevention": "Plant resistant varieties; ensure spacing for air flow; avoid late-day watering"
+  },
+  "Strawberry___Leaf_scorch": {
+    "display_name": "Strawberry Leaf Scorch",
+    "symptoms": "Small dark purple spots on leaves that enlarge; leaf margins dry and curl up",
+    "severity_levels": ["mild", "moderate", "severe"],
+    "home_remedies": [
+      "Remove and destroy infected leaves",
+      "Apply neem oil spray every 10 days",
+      "Renovate beds after harvest by mowing and thinning"
+    ],
+    "prevention": "Use resistant varieties; ensure good drainage; thin runners for air circulation"
+  },
+  "Strawberry___healthy": {
+    "display_name": "Healthy Strawberry",
+    "symptoms": "No disease detected",
+    "severity_levels": [],
+    "home_remedies": [],
+    "prevention": "Mulch with straw; control runners; replace plants every 3-4 years"
+  },
+  "Tomato___Bacterial_spot": {
+    "display_name": "Tomato Bacterial Spot",
+    "symptoms": "Small, dark, water-soaked spots on leaves and fruit; raised scab-like spots on fruit",
+    "severity_levels": ["mild", "moderate", "severe"],
+    "home_remedies": [
+      "Remove infected leaves and fruit immediately",
+      "Apply copper spray every 7-10 days during wet weather",
+      "Mulch heavily to prevent rain splash from soil"
+    ],
+    "prevention": "Use disease-free seeds/transplants; rotate crops 2-3 years; avoid overhead watering"
+  },
+  "Tomato___Early_blight": {
+    "display_name": "Tomato Early Blight",
+    "symptoms": "Dark concentric ring spots (bulls-eye) on lower leaves; stems may show dark cankers",
+    "severity_levels": ["mild", "moderate", "severe"],
+    "home_remedies": [
+      "Prune lower branches to improve air flow",
+      "Apply baking soda spray (1 tbsp per gallon with a drop of dish soap)",
+      "Mulch around base to prevent soil splash"
+    ],
+    "prevention": "Crop rotation; stake plants; water at soil level; remove infected debris"
+  },
+  "Tomato___Late_blight": {
+    "display_name": "Tomato Late Blight",
+    "symptoms": "Large, dark, water-soaked patches on leaves; white fuzzy growth underneath; rapid plant death",
+    "severity_levels": ["severe"],
+    "home_remedies": [
+      "URGENT: Remove and bag (do not compost) ALL infected plants immediately",
+      "Apply copper fungicide to nearby uninfected plants as protection",
+      "Late blight spreads rapidly; act within 24 hours"
+    ],
+    "prevention": "Plant resistant varieties; avoid overhead watering; space plants widely for air flow"
+  },
+  "Tomato___Leaf_Mold": {
+    "display_name": "Tomato Leaf Mold",
+    "symptoms": "Pale yellow spots on upper leaves; olive-green to gray fuzzy mold on undersides",
+    "severity_levels": ["mild", "moderate", "severe"],
+    "home_remedies": [
+      "Improve ventilation (especially in greenhouses)",
+      "Apply baking soda spray or neem oil every 7 days",
+      "Remove and destroy affected lower leaves"
+    ],
+    "prevention": "Ensure good ventilation; reduce humidity; avoid wetting foliage; space plants adequately"
+  },
+  "Tomato___Septoria_leaf_spot": {
+    "display_name": "Tomato Septoria Leaf Spot",
+    "symptoms": "Many small circular spots with dark borders and gray centers on lower leaves",
+    "severity_levels": ["mild", "moderate", "severe"],
+    "home_remedies": [
+      "Remove and destroy infected lower leaves immediately",
+      "Apply neem oil or copper spray every 7-10 days",
+      "Mulch around plants to reduce rain splash"
+    ],
+    "prevention": "Crop rotation; avoid overhead watering; mulch; remove plant debris at end of season"
+  },
+  "Tomato___Spider_mites_Two-spotted_spider_mite": {
+    "display_name": "Tomato Spider Mites",
+    "symptoms": "Tiny yellow speckling on leaves; fine webbing on undersides; leaves dry out and drop",
+    "severity_levels": ["mild", "moderate", "severe"],
+    "home_remedies": [
+      "Spray plants forcefully with water to knock off mites",
+      "Apply neem oil spray covering leaf undersides every 5 days",
+      "Mix 1 tbsp dish soap per quart of water and spray undersides"
+    ],
+    "prevention": "Keep plants well-watered (mites thrive in dry conditions); avoid dusty areas; encourage predatory mites"
+  },
+  "Tomato___Target_Spot": {
+    "display_name": "Tomato Target Spot",
+    "symptoms": "Brown spots with concentric rings on leaves, stems, and fruit",
+    "severity_levels": ["mild", "moderate", "severe"],
+    "home_remedies": [
+      "Remove and destroy infected plant parts",
+      "Apply copper-based fungicide spray",
+      "Improve air circulation by pruning suckers"
+    ],
+    "prevention": "Crop rotation; adequate spacing; stake or cage plants; avoid working with wet plants"
+  },
+  "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+    "display_name": "Tomato Yellow Leaf Curl Virus",
+    "symptoms": "Leaves curl upward and turn yellow; stunted growth; reduced or no fruit production",
+    "severity_levels": ["moderate", "severe"],
+    "home_remedies": [
+      "Remove and destroy infected plants to prevent spread",
+      "Control whiteflies (vector) with yellow sticky traps",
+      "Spray neem oil to repel whiteflies from healthy plants"
+    ],
+    "prevention": "Use resistant varieties; install reflective mulch to deter whiteflies; use row covers for young plants"
+  },
+  "Tomato___Tomato_mosaic_virus": {
+    "display_name": "Tomato Mosaic Virus",
+    "symptoms": "Mottled light and dark green mosaic pattern on leaves; distorted leaf growth; reduced yields",
+    "severity_levels": ["moderate", "severe"],
+    "home_remedies": [
+      "No cure; remove and destroy infected plants (do not compost)",
+      "Wash hands and tools with milk or 10% bleach solution between plants",
+      "Control aphids (vector) with insecticidal soap"
+    ],
+    "prevention": "Use resistant varieties; disinfect tools; wash hands before handling plants; avoid tobacco near plants"
+  },
+  "Tomato___healthy": {
+    "display_name": "Healthy Tomato",
+    "symptoms": "No disease detected",
+    "severity_levels": [],
+    "home_remedies": [],
+    "prevention": "Consistent watering; balanced fertilizer; stake for support; prune suckers for air flow"
+  }
+}
