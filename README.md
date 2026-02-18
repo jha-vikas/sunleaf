@@ -7,25 +7,29 @@ An Android app that uses on-device ML models to:
 
 All ML inference runs entirely on-device. No internet required after installation.
 
+**Technical details:** See [docs/APPROACH.md](docs/APPROACH.md) for architecture, distillation pipeline, and preprocessing contracts.
+
 ---
 
 ## Project Structure
 
 ```
-sunlight_project/
+sunleaf/
 ├── training/                          # Python scripts for model prep
 │   ├── disease_detection/             # Download & convert pre-trained disease model
-│   ├── species_identification/        # Distill ViT → MobileNetV2 for species ID
-│   ├── sunlight/                      # Sun position algorithm + light classifier
-│   └── common/                        # Shared utilities
+│   ├── species_identification/       # Distill ViT → MobileNetV2 for species ID
+│   ├── sunlight/                     # Sun position algorithm + light classifier
+│   └── common/                       # Shared utilities
 ├── models/                            # Output: TFLite model files (Git LFS)
 │   └── labels/                        # Class label text files
 ├── data/                              # Curated knowledge bases
 │   ├── disease_remedies.json          # 38 diseases → symptoms + home remedies
 │   └── plant_care.json                # 47 species → light/water/humidity needs
+├── docs/                              # Technical documentation
+│   └── APPROACH.md                   # Architecture, distillation, preprocessing
 ├── tests/                             # Pytest test suite
 ├── notebooks/
-│   └── colab_training.ipynb           # Google Colab alternative
+│   └── colab_training.ipynb          # Google Colab alternative
 └── android_app/                       # Kotlin Android app (Phase 2)
 ```
 
@@ -46,7 +50,8 @@ cd sunleaf
 
 # Install uv if not already installed
 curl -LsSf https://astral.sh/uv/install.sh | sh
-source $HOME/.local/bin/env
+# Add uv to PATH (skip if uv is already available)
+source $HOME/.local/bin/env 2>/dev/null || true
 
 # Create venv and install dependencies
 uv sync
@@ -108,9 +113,9 @@ Your Mac M3 Max with 96GB RAM is the recommended training machine. PyTorch autom
 git clone https://github.com/jha-vikas/sunleaf.git
 cd sunleaf
 
-# 2. Install uv
+# 2. Install uv (if needed) and add to PATH
 curl -LsSf https://astral.sh/uv/install.sh | sh
-source $HOME/.local/bin/env
+source $HOME/.local/bin/env 2>/dev/null || true
 
 # 3. Install all dependencies
 uv sync
@@ -150,9 +155,9 @@ Student model: MobileNetV2 with 2.3M params
 Epoch 1/20 | Loss: 2.1234 | Val Acc: 0.4521 | Time: 320s
 Epoch 2/20 | Loss: 1.5678 | Val Acc: 0.6234 | Time: 310s
 ...
-Epoch 20/20 | Loss: 0.3210 | Val Acc: 0.8745 | Time: 300s
+Epoch 20/20 | Loss: 0.34 | Val Acc: 0.93 | Time: ~140s
 
-Training complete! Best validation accuracy: 0.8812
+Training complete! Best validation accuracy: ~0.93
 ```
 
 ### Custom training options
@@ -183,7 +188,7 @@ If you don't have access to your Mac, use the included Colab notebook:
 | Model | Architecture | Size | Classes | Accuracy | Training |
 |-------|-------------|------|---------|----------|----------|
 | Disease Detection | MobileNetV2 | ~10 MB | 38 diseases | ~95% | Pre-trained (download only) |
-| Species ID | MobileNetV2 | ~12 MB | 47 houseplants | ~87% | Distillation (~1-2 hrs) |
+| Species ID | MobileNetV2 | ~12 MB | 47 houseplants | ~93% | Distillation (~1-2 hrs on M3) |
 | Sunlight | Pure algorithm | 0 MB | N/A | N/A | None |
 
 **Total on-device footprint: ~23 MB** (smaller than most photos)
