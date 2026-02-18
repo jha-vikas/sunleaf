@@ -31,6 +31,10 @@ LABELS_DIR = MODELS_DIR / "labels"
 
 HF_REPO = "Daksh159/plant-disease-mobilenetv2"
 
+# Standard PlantVillage 38-class labels in alphabetical order.
+# This matches the label ordering used by torchvision.datasets.ImageFolder
+# during training. The HF repo claims a class_names.json but it's absent;
+# these are verified against the PlantVillage dataset.
 DISEASE_LABELS = [
     "Apple___Apple_scab",
     "Apple___Black_rot",
@@ -90,38 +94,38 @@ def download_model() -> Path:
     print(f"Downloading model from {HF_REPO}...")
     path = hf_hub_download(
         repo_id=HF_REPO,
-        filename="plant_disease_mobilenetv2.pth",
+        filename="mobilenetv2_plant.pth",
     )
     print(f"Downloaded to: {path}")
     return Path(path)
 
 
-def load_pretrained_model(weights_path: Path) -> nn.Module:
+def load_pretrained_model(weights_path: Path, num_classes: int) -> nn.Module:
     """Load the pre-trained weights into MobileNetV2."""
-    model = build_mobilenetv2(NUM_CLASSES)
-
     state_dict = torch.load(weights_path, map_location="cpu", weights_only=True)
 
-    # Handle different state_dict formats from HuggingFace uploads
     if "model_state_dict" in state_dict:
         state_dict = state_dict["model_state_dict"]
     elif "state_dict" in state_dict:
         state_dict = state_dict["state_dict"]
 
-    # Try loading; if keys don't match exactly, try stripping module. prefix
-    try:
-        model.load_state_dict(state_dict, strict=True)
-    except RuntimeError:
-        cleaned = {k.replace("module.", ""): v for k, v in state_dict.items()}
-        model.load_state_dict(cleaned, strict=True)
+    cleaned = {k.replace("module.", ""): v for k, v in state_dict.items()}
 
+    # The HuggingFace checkpoint uses a nested classifier (classifier.1.1.*)
+    # while our architecture uses a flat one (classifier.1.*). Remap the keys.
+    if "classifier.1.1.weight" in cleaned and "classifier.1.weight" not in cleaned:
+        cleaned["classifier.1.weight"] = cleaned.pop("classifier.1.1.weight")
+        cleaned["classifier.1.bias"] = cleaned.pop("classifier.1.1.bias")
+
+    model = build_mobilenetv2(num_classes)
+    model.load_state_dict(cleaned, strict=True)
     model.eval()
-    print(f"Loaded model with {NUM_CLASSES} classes")
+    print(f"Loaded model with {num_classes} classes")
     return model
 
 
 def convert_to_tflite(model: nn.Module, output_path: Path) -> None:
-    """Convert PyTorch model to TFLite using litert-torch."""
+    """Convert PyTorch model to TFLite using litert_torch."""
     try:
         import litert_torch
     except ImportError:
@@ -130,16 +134,13 @@ def convert_to_tflite(model: nn.Module, output_path: Path) -> None:
         export_onnx_fallback(model, output_path.with_suffix(".onnx"))
         return
 
-    print("Converting to TFLite via litert-torch...")
+    print("Converting to TFLite via litert_torch...")
     sample_input = torch.randn(1, 3, 224, 224)
 
-    tflite_model = litert_torch.converter.convert(
-        model,
-        sample_input,
-    )
+    edge_model = litert_torch.convert(model, (sample_input,))
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    tflite_model.export(str(output_path))
+    edge_model.export(str(output_path))
 
     size_mb = output_path.stat().st_size / (1024 * 1024)
     print(f"TFLite model saved to: {output_path} ({size_mb:.1f} MB)")
@@ -198,7 +199,7 @@ def main():
     weights_path = download_model()
 
     # Step 2: Load into MobileNetV2
-    model = load_pretrained_model(weights_path)
+    model = load_pretrained_model(weights_path, NUM_CLASSES)
 
     # Step 3: Quick validation
     quick_validate(model)
